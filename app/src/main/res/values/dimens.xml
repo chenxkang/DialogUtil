@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--dialog的高度和宽度-->
+    <dimen name="dialog_width">300dp</dimen>
+    <dimen name="dialog_height">140dp</dimen>
+
+    <!--分割线的粗度-->
+    <dimen name="cut_line_roughness">0.5sp</dimen>
+
+    <!--标题的上下边距-->
+    <dimen name="dialog_title_padding">2dp</dimen>
+    <!--内容的左右边距-->
+    <dimen name="dialog_content_padding">6dp</dimen>
+
+    <dimen name="dimen_15sp">15sp</dimen>
+    <dimen name="dimen_16sp">16sp</dimen>
+    <dimen name="dimen_17sp">17sp</dimen>
+
+</resources>

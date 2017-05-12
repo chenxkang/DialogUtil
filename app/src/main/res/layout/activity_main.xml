@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/content_tv01"
+        style="@style/TextView_style"
+        android:text="不带标题，按钮一为确定，按钮二为取消" />
+
+    <View style="@style/cut_line_horizontal" />
+
+    <TextView
+        android:id="@+id/content_tv02"
+        style="@style/TextView_style"
+        android:text="不带标题，按钮一为取消，按钮二为确定" />
+
+    <View style="@style/cut_line_horizontal" />
+
+    <TextView
+        android:id="@+id/content_tv03"
+        style="@style/TextView_style"
+        android:text="自定义标题，按钮一为确定，按钮二为取消" />
+
+    <View style="@style/cut_line_horizontal" />
+
+    <TextView
+        android:id="@+id/content_tv04"
+        style="@style/TextView_style"
+        android:text="自定义标题，按钮一为取消，按钮二为确定" />
+
+    <View style="@style/cut_line_horizontal" />
+
+    <TextView
+        android:id="@+id/content_tv05"
+        style="@style/TextView_style"
+        android:text="带默认标题，按钮一为确定，按钮二为取消" />
+
+    <View style="@style/cut_line_horizontal" />
+
+    <TextView
+        android:id="@+id/content_tv06"
+        style="@style/TextView_style"
+        android:text="带默认标题，按钮一为取消，按钮二为确定" />
+
+    <View style="@style/cut_line_horizontal" />
+
+    <TextView
+        android:id="@+id/content_tv07"
+        style="@style/TextView_style"
+        android:text="三按钮弹窗：不带标题，自定义按钮文字" />
+
+    <View style="@style/cut_line_horizontal" />
+
+    <TextView
+        android:id="@+id/content_tv08"
+        style="@style/TextView_style"
+        android:text="三按钮弹窗：自定义标题和按钮文字" />
+
+    <View style="@style/cut_line_horizontal" />
+
+</LinearLayout>

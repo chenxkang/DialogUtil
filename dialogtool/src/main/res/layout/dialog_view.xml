@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dialogtool.chenxkang.CustomAlertDialog.DialogView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="140dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/color_dialog_title"
+            android:textSize="@dimen/dimen_17sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/dialog_content_tv"
+            style="@style/weight_vertical"
+            android:gravity="center"
+            android:textColor="@color/color_dialog_content"
+            android:textSize="@dimen/dimen_15sp"/>
+
+        <View style="@style/cut_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dialog_button_01"
+                style="@style/dialog_button_style" />
+
+            <View android:id="@+id/dialog_line_01"
+                style="@style/cut_line_vertical"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/dialog_button_02"
+                style="@style/dialog_button_style"
+                android:visibility="gone"/>
+
+            <View android:id="@+id/dialog_line_02"
+                style="@style/cut_line_vertical"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/dialog_button_03"
+                style="@style/dialog_button_style"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</com.dialogtool.chenxkang.CustomAlertDialog.DialogView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cut_line_roughness">0.5sp</dimen>
+
+    <dimen name="dimen_15sp">15sp</dimen>
+    <dimen name="dimen_16sp">16sp</dimen>
+    <dimen name="dimen_17sp">17sp</dimen>
+
+</resources>
