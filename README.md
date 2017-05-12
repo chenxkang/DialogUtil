@@ -14,6 +14,6 @@
 注：弹窗的标题和按钮属性均可自定义。
 
 两按钮的弹窗样式：
-![](https://github.com/chenxkang/DialogUtil/pictures/dialog_01.png)
+![](https://github.com/chenxkang/DialogUtil/blob/master/pictures/dialog_01.png)
 三按钮的弹窗样式：
-![](https://github.com/chenxkang/DialogUtil/pictures/dialog_02.png)
+![](https://github.com/chenxkang/DialogUtil/blob/master/pictures/dialog_02.png)
