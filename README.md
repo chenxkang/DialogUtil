@@ -16,6 +16,7 @@
 两按钮的弹窗样式：
 
 ![](https://github.com/chenxkang/DialogUtil/blob/master/pictures/dialog_01.png)
+
 三按钮的弹窗样式：
 
 ![](https://github.com/chenxkang/DialogUtil/blob/master/pictures/dialog_02.png)
